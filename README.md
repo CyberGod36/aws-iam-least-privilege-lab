@@ -36,7 +36,7 @@ This project showcases:
 
 ### Step 1: Create Admin User
 Created an IAM administrator user with full access.
-![Step 1](screenshots/01-admin-user-created.png)
+![Step 1]images/01-root-mfa-enabled.png
 
 ---
 
