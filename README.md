@@ -36,31 +36,31 @@ This project showcases:
 
 ### Step 1: Create Admin User
 Created an IAM administrator user with full access.
-![Step 1]
+
 
 ---
 
 ### Step 2: Attach Admin Group & Permissions
 Attached `AdministratorAccess` policy via an admin group.
-![Step 2]
+
 
 ---
 
 ### Step 3: Enable MFA for Admin
 Enabled virtual MFA to secure the admin account.
-![Step 3]
+
 
 ---
 
 ### Step 4: Create Analyst User
 Created a restricted IAM user named `bob-analyst`.
-![Step 4]
+
 
 ---
 
 ### Step 5: Create Analyst Group
 Created an IAM group called `Analysts`.
-![Step 5]
+
 
 ---
 
@@ -70,44 +70,44 @@ Created a **custom policy** allowing:
 - `s3:ListAllMyBuckets`
 - `s3:GetObject`
 
-![Step 6]
+
 
 ---
 
 ### Step 7: Attach Policy to Analyst Group
 Attached the custom read-only policy to the `Analysts` group.
-![Step 7]
+
 
 ---
 
 ### Step 8: Add Analyst User to Group
 Added `bob-analyst` to the `Analysts` group.
-![Step 8]
+
 
 ---
 
 ### Step 9: Analyst Login Page
 Verified IAM login using the account ID and IAM username.
-![Step 9]
+
 
 ---
 
 ### Step 10: Password Reset
 Forced password reset on first login for security.
-![Step 10]
+
 
 ---
 
 ### Step 11: Successful Analyst Login
 Confirmed `bob-analyst` successfully logged in.
-![Step 11]
+
 
 ---
 
 ### Step 12: Access Denied (Least Privilege Enforced)
 Attempted to list IAM users and received an access denied error.
 This confirms **least privilege is correctly enforced**.
-![Step 12]
+
 
 ---
 
